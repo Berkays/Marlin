@@ -93,6 +93,7 @@
 //
 #define TEMP_0_PIN                          PA0   // Analog Input "TH0"
 #define TEMP_BED_PIN                        PC3   // Analog Input "TB0"
+#define TEMP_PROBE_PIN                      PA1
 
 //
 // Heaters / Fans
@@ -185,7 +186,7 @@
     #define LCD_PINS_D5                     PA10
     #define LCD_PINS_D6                     PA9
     #define LCD_PINS_D7                     PB5
-    #define ADC_KEYPAD_PIN                  PA1   // Repurpose servo pin for ADC - CONNECTING TO 5V WILL DAMAGE THE BOARD!
+    // #define ADC_KEYPAD_PIN                  PA1   // Repurpose servo pin for ADC - CONNECTING TO 5V WILL DAMAGE THE BOARD!
 
   #elif EITHER(MKS_MINI_12864, ENDER2_STOCKDISPLAY)
 
